@@ -1,14 +1,14 @@
-// String Annotations
-let name: string = "Abhijit";
-name = "New Name";
+// # String Annotations
+// let name: string = "Abhijit";
+// name = "New Name";
 
-console.log(name);
+// console.log(name);
 
 // Number Annotations
 
-let age: number = 20;
+// let age: number = 20;
 
-console.log(age);
+// console.log(age);
 
 // Type Infrring
 let userName = "Abhiji"; //automatically define the type by default
@@ -16,3 +16,8 @@ let userName = "Abhiji"; //automatically define the type by default
 
 let isLoggedIn = true;
 // isLoggedIn = "false";
+
+// any type
+let name: any = "Abhijit";
+
+console.log(name.toUpperCase());
