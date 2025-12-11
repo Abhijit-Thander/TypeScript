@@ -9,3 +9,10 @@ console.log(name);
 let age: number = 20;
 
 console.log(age);
+
+// Type Infrring
+let userName = "Abhiji"; //automatically define the type by default
+// userName = 12;
+
+let isLoggedIn = true;
+// isLoggedIn = "false";
