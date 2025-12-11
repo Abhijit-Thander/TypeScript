@@ -1,11 +1,11 @@
-type person = {
-  name: string;
-  age: number;
-};
+// String Annotations
+let name: string = "Abhijit";
+name = "New Name";
 
-const Person: person = {
-  name: "Abhijit",
-  age: 21,
-};
-console.log(Person);
- 
+console.log(name);
+
+// Number Annotations
+
+let age: number = 20;
+
+console.log(age);
